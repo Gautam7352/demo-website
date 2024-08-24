@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!-------------------------------------------back to top button section------------------------------------------->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+
+  <!-------------------------------------------Header------------------------------------------->
+
+  <div class="header-content page-top bg-image overlay" style="background-image: url(Header-bg.jpg);">
+    <div class="top-section">
+      <div>
+        <nav class="navbar">
+          <h1>Peace</h1>
+          <ul class="nav-links">
+            <li class="btn"><a href="#Home">Home</a></li>
+            <li class="btn"><a href="#Projects">Projects</a></li>
+            <li class="btn"><a href="#Team">Team</a></li>
+            <li class="btn"><a href="#Blogs">Blogs</a></li>
+            <li class="btn"><a href="#Contact Us">Contact us</a></li>
+          </ul>
+        </nav>
+        <span class="subhead">Explore the world beyound limits</span>
+        <h1>A Wonderfull Gift</h1>
+        <a href="#" class="btn">Learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------------Section 2------------------------------------------->
+  <div id="Home" align="center" style="box-sizing: border-box; width: 100%;margin-top: -100px;">
+
+
+    <h1>Welcome to The Kingdom</h1>
+
+
+    <div style="display: flex;justify-content: center;">
+      <p style="width: 200px;padding-right: 30px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+        eos
+        et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore
+        eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut
+        optio
+        facilis!
+      </p>
+
+      <img src="2.1.jpg" />
+    </div>
+
+
+    <br><br><br>
+
+
+
+    <div style="align-items: center;">
+      <table cellspacing="50px" style="text-align: center;border-width: 10px;">
+        <tr>
+          <td><img src="2.2.jpg" /></td>
+          <td><img src="2.3.jpg" /></td>
+          <td><img src="2.4.jpg" /></td>
+        </tr>
+        <tr>
+          <td>This is small example and i am writing randoims words in it just to fill the paragraph.</td>
+          <td>This is small example and i am writing randoims words in it just to fill the paragraph.</td>
+          <td>This is small example and i am writing randoims words in it just to fill the paragraph.</td>
+        </tr>
+        <tr valign="top">
+          <td><button>learn more</button></td>
+          <td><button>learn more</button></td>
+          <td><button>learn more</button></td>
+        </tr>
+      </table>
+    </div>
+
+
+    <hr align="center" width="900px">
+  </div>
+
+  <!-------------------------------------------Section 3------------------------------------------->
+  <div aligh="center">
+    <div align="center" id="Projects" style="width: 100%;">
+      <div class="heading">
+        <h1 align="center">Projects</h1>
+      </div>
+
+      <div class="projects">
+
+        <div class="project" id="proj-1">
+          <img src="3.1.jpg">
+
+          <h3>BLOGS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facere accusamus doloremque
+            deleniti. Nihil nesciunt, possimus veniam rerum explicabo hic porro quas. Similique, error
+            laboriosam. Doloribus, ratione eum. Alias, porro.
+          </p>
+          <button type="button">Launch Case Study</button>
+        </div>
+        <div class="project" id="proj-2">
+          <img src="3.2.jpg">
+
+          <h3>ENDEVEAOUR</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facere accusamus doloremque
+            deleniti. Nihil nesciunt, possimus veniam rerum explicabo hic porro quas. Similique, error
+            laboriosam. Doloribus, ratione eum. Alias, porro.</p>
+          <button type="button">Launch Case Study</button>
+        </div>
+        <div class="project" id="proj-3">
+          <img src="3.3.jpg">
+          <h3>CONSULTANTS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facere accusamus doloremque
+            deleniti. Nihil nesciunt, possimus veniam rerum explicabo hic porro quas. Similique, error
+            laboriosam. Doloribus, ratione eum. Alias, porro.</p>
+          <button type="button">Launch Case Study</button>
+        </div>
+        <div class="project" id="proj-4">
+          <img src="3.4.jpg">
+          <h3>DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facere accusamus doloremque
+            deleniti. Nihil nesciunt, possimus veniam rerum explicabo hic porro quas. Similique, error
+            laboriosam. Doloribus, ratione eum. Alias, porro.</p>
+          <button type="button">Launch Case Study</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------------Section 4------------------------------------------->
+  <div align="center" style="padding-top: 10px;padding-bottom: 20px;">
+    <table align="center">
+      <h1 align="center">Pricing table</h1>
+      <tr style="font-weight: bold;">
+        <td style="width: 150px;">Standard Plan</td>
+        <td style="width: 150px;">Business Plan</td>
+        <td style="width: 150px;">Premium Plan</td>
+      </tr>
+      <tr style="color:grey;height: 60px;">
+        <td>Free</td>
+        <td>19$/month</td>
+        <td>14$/month</td>
+      </tr>
+      <tr>
+        <td>2GB Available</td>
+        <td>10GB Available</td>
+        <td>100GB Available</td>
+      </tr>
+      <tr>
+        <td>15 max. contact</td>
+        <td>25 max. contact</td>
+        <td>unlimited max. contact</td>
+      </tr>
+      <tr>
+        <td>30 management</td>
+        <td>30 management</td>
+        <td>30 management</td>
+      </tr>
+      <tr>
+        <td>Disgusting ads</td>
+        <td>Ads free</td>
+        <td>Ads free</td>
+      </tr>
+      <tr>
+        <td style="height: 40px; padding-top: 25px;"><button>Buy</button></td>
+        <td style="height: 40px; padding-top: 25px;"><button>Buy</button></td>
+        <td style="height: 40px; padding-top: 25px;"><button>Buy</button></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-------------------------------------------Section 5------------------------------------------->
+
+  <div style="background-color:purple; height:600;padding: 20px;">
+    <h2 style="text-align:center;color: white;">Video projects</h2>
+    <br> <br>
+    <div class="content ">
+
+      <div class="mySlides">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/c5ZFUgtCJ-4">
+        </iframe>
+      </div>
+
+      <div class="mySlides">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/eAkOSEAqKSQ">
+        </iframe>
+      </div>
+
+      <div class="mySlides">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/uXOGZc4orcw">
+        </iframe>
+      </div>
+
+      <div class="mySlides">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/goVeiNGC60w">
+        </iframe>
+      </div>
+
+      <button onclick="plusDivs(-1)">&#10094;</button>
+      <button onclick="plusDivs(1)">&#10095;</button>
+
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </div>
+
+  <!-------------------------------------------Section 6------------------------------------------->
+
+  <div id="Team" class="teamcontainer">
+    <h1 style="text-align: center;">Team</h1>
+    <div class="container">
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Gautam.jpg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Gautam Kumar
+              <br>
+              <span class="job-title">Coder</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- end box wrapper -->
+
+
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Naruto.jpg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Naruto Uzumaki
+              <br>
+              <span class="job-title">Child Warrior</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Goku.jpg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Goku
+              <br>
+              <span class="job-title">Warrior</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+    </div><!-- END container -->
+
+
+    <!------------------------------------next row------------------------------------>
+    <div class="container">
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Abhishek.jpeg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Abhishek kumar
+              <br>
+              <span class="job-title">Brother</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Arbaz.png" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Arbaz
+              <br>
+              <span class="job-title">Friend</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Loligo.jpg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Loligo
+              <br>
+              <span class="job-title">Friend</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+    </div><!-- END container -->
+
+    <!------------------------------------next row------------------------------------>
+
+    <div class="container">
+      <div class="card-wrapper">
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.The_Dog.jpg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>The Dog
+              <br>
+              <span class="job-title">Ded Pet</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+      <div class="card-wrapper">
+
+        <div class="card">
+
+          <div class="card-image">
+            <img src="6.Nura_Rikuo.jpg" alt="profile one">
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="details">
+            <h2>Nura Rikuo
+              <br>
+              <span class="job-title">Leader of Night parade</span>
+            </h2>
+          </div>
+        </div>
+      </div><!-- END box wrapper -->
+    </div><!-- END container -->
+  </div>
+
+  <!-------------------------------------------Section 7------------------------------------------->
+  <div class="image-slider">
+    <h1>Motivation</h1>
+    <div id="image">
+      <figure>
+        <img src="7.1.jpg">
+        <img src="7.2.jpg">
+        <img src="7.3.jpg">
+        <img src="7.4.jpg">
+        <img src="7.5.jpg">
+
+      </figure>
+
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+  <!-------------------------------------------Section 8------------------------------------------->
+
+  <div style="background-image: url('8.1.jpg');   min-height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;">
+    <h1 style="color: rgb(88, 21, 146);text-align: center;">Newsletter signup</h1>
+    <form style="text-align: center;">
+
+      <div style="padding:35px">
+        <input style="width: 350px;" type="email" name="email" placeholder="enter email" />
+        <input type="submit" value="signup" />
+      </div>
+    </form>
+  </div>
+
+  <!-------------------------------------------Section 9------------------------------------------->
+
+  <div id="Blogs" style="text-align: center;">
+    <h1>Blog</h1>
+    <table style="text-align:center;">
+      <tr>
+        <td><img src="9.1.jpg" alt="oops"></td>
+        <td><img src="9.2.jpg" alt="oops"></td>
+        <td><img src="9.3.jpg" alt="oops"></td>
+      </tr>
+      <tr>
+        <td><b>part 1</b></td>
+        <td><b>part 2</b></td>
+        <td><b>part 3</b></td>
+      </tr>
+      <tr>
+        <td style="opacity: 0.5;"> date</td>
+        <td style="opacity: 0.5;">date</td>
+        <td style="opacity: 0.5;">date</td>
+      </tr>
+      <tr>
+        <td>It is a long established fact that a reader will be distracted by the readable content
+          of a page when looking at its layout. The point of using Lorem Ipsum is that it
+          has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+          content here', making it look like readable English.</td>
+        <td>It is a long established fact that a reader will be distracted by the readable content
+          of a page when looking at its layout. The point of using Lorem Ipsum is that it
+          has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+          content here', making it look like readable English.</td>
+        <td>It is a long established fact that a reader will be distracted by the readable content
+          of a page when looking at its layout. The point of using Lorem Ipsum is that it
+          has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+          content here', making it look like readable English.</td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="alert('Page redirecting...')" style="border: thin">Read more</button>
+        </td>
+        <td><button type="button" onclick="alert('Page redirecting...')" style="border: thin">Read more</button>
+        </td>
+        <td><button type="button" onclick="alert('Page redirecting...')" style="border: thin;">Read
+            more</button></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-------------------------------------------Section 10------------------------------------------->
+
+  <div id="Contact Us" class="row10" style="background-color: bisque;">
+    <div class="column10">
+      <iframe padding-left="20px"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.070963157024!2d85.33345131497381!3d23.3494434847886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e198229f65f9%3A0xd1b74315e6a27a03!2sRanchi%20Junction!5e0!3m2!1sen!2sin!4v1630317898562!5m2!1sen!2sin"
+        width="600" height="300" style="border:3px solid black;" loading="lazy"></iframe>
+    </div>
+
+    <div class="column10">
+      <h1>Contact Us</h1>
+      <form>
+        <label for="name">Name</label>
+        <br><input type="text" />
+        <br><label for="email">Email-address</label>
+        <br><input type="text" />
+        <br><label for="Subject">Subject</label>
+        <br><input type="text" />
+        <br><label for="Message">Message</label>
+        <br><input type="text" style="height: 50px;" />
+        <br><input type="button" value="Send" />
+      </form>
+    </div>
+  </div>
+
+  <!-------------------------------------------footer------------------------------------------->
+  <div align="center">
+    <table style="text-align: center;">
+      <tr style="font-weight: bold;height: 60px;">
+        <td style="width: 200px;">Office address</td>
+        <td style="width: 200px;">Contact us</td>
+        <td style="width: 200px;">Follow us</td>
+      </tr>
+      <tr style="height: 10px;">
+        <td>Lorem ipsum dolor,234</td>
+        <td rowspan="3"><img src="11.jpg" height="80px" width="100px"></td>
+        <td>XXXXXXXXXX</td>
+      </tr>
+      <tr style="height: 10px;">
+        <td>1200 consecture</td>
+        <td>XYZ@gmail.coim</td>
+      </tr>
+      <tr style="height: 10px;">
+        <td>Adipshing</td>
+        <td>equipped@zippy</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>
